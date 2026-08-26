@@ -50,6 +50,10 @@ jobs:
           path: public
  
   deploy:
+    permissions: 
+       pages: write
+       id-token: write
+       contents: read
     needs: build
     environment:
       name: github-pages

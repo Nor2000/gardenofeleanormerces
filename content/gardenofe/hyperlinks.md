@@ -1,0 +1,8 @@
+- crawler: program that traverses hyperlinks
+- anchor links: links to a specific portion of a document
+- fat links: hyperlink that leads to multiple endpoints
+	- link is a set-valued function
+- Idea: 
+	- hyperlinks encapsulate a "relation" between two ideas, but this relationship is not well-defined. 
+	- the graph view in obsidian that you can make with hyperlinks is interesting, but it is not *specific* to a defined relation. being able to somehow sort through hyperlinks based on a defined relation might allow us to more clearly see how ideas are connected, rather than more generally
+- Parameters: 

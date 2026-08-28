@@ -1,0 +1,7 @@
+- [[information as capital]]
+- technology focus
+- intellectual property
+- information is valued as a capital good
+- [[knowledge economy]]
+- [[knowledge worker]]
+- 

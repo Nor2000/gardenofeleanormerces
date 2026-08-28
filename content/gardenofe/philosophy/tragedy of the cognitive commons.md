@@ -1,0 +1,53 @@
+*analysis of the paper "Ai, Human Cognition, and Knowledge Collapse* by *The Structural Lens* on Substack
+
+- [[tragedy of the commons]]
+
+**the concept**: ai can and will destroy human [[expertise]] on subjects
+- if humans offload basic "[[friction]]" tasks to ai, then there is nto the chance for building deeper knowledge, which is necessary for proofchecking the validity of outputs from ai
+- **the paper**: "[[AI, Human Cognition, and Knowledge Collapse]]"
+	- [[Daron Acemoglu]]: Turkish economist
+		- prized for work around how institutions shape prosperity
+	- [[Dingwen Kong]]: theorist in [[information economics]]
+	- [[Asuman Ozdaglar]]: world leading scholar of network dynamics and optimization
+- mathematically dense
+
+- "human knowledge operates om two layers"
+	- 1) [[general knowledge]]: accumulated, shared understanding that communities hold of the world
+		- can be specific to a field as well: medicine, law, economics
+	- 2) [[context-specific knowledge]]: particular, local, individual information that applies to a given situation
+		- [[private knowledge]]
+		- belonga to the individual
+- critical inisight here is that these two forms of knowledge are complements, not substitutes
+	- "knowing your symptoms is worthless without a medical science capable of interpreting them"
+	- the complement is so fundamental to how we navigate the world that it goes unnoticed
+	- it is this that the paper argues agentic ai is positioned to dismantle
+	- *question:* how would an ai dismantle this?
+		- what would the effect of dismantling this compliemntary relationship be?
+- **[[joint production problem]]**
+	- general vs specific knowledge is not produced as separate activities
+	- "fundamental engine of how socieities accumulate and renew their knowledge"
+	- "[[economies of scope in learning]]"
+	- [[externality economics]]
+		- nobody pays for individual contributions to a body of knowledge, i.e. specific-case contributions to a general body of knowledge are not paid for
+		- because nobody pays for it, the market systematically underproduces it
+			- the market generally does not try to generate professional knowledge (academia is relatively small)
+- [[the substitution trap]]
+	- ai takes your specific problem delivers a tailored, high precision recommendation
+	- when ai subs for context specific effort, it eliminates the joint production that generated general knowledge as a byproduct
+	- 'private benefit of learning is replaced by the AI's recommendation'
+	- ai reduces human effort ---> reduced human effort reduces the production of general knowledge ---> reduced general knowledge makes the ai less effective
+		- this results in a knowledge collapse, a stable equilibrium in which general knowledge goes to zero, because every individual actor responded rationally to the incentives in front of them
+- the mathematics of the cliff
+	- the collapse can be discontinuous: think of a bridge that holds its load, until it doesn't 
+		- normal, normal, normal ----> total collapse
+		- **important**: there exists an optimal level of ai that optimises social welfare, and a level of ai that optimises profit.
+			- the profit level exceeds the social welfare level!!!
+				- question: what are the metrics by which an ai is "accurate"?
+				- question: how is the level, or threshhold, decided?
+- the externality that ate the information ecosystem
+	- externalities are among the oldest concepts in economics
+	- most economic analyses of ai focuses on labor markets
+		- these all assume that the knowledge base underpinning economic activity stays intact
+	- unlike pollution, the erosion of general knowledge is invisible, diffuse, and becomes apparent only after the damage is done
+- the philosophers nightmare, formalized
+	- knowledge is not merely a stock to be stored but a practice to be maintained

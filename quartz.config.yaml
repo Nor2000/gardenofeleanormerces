@@ -208,10 +208,10 @@ plugins:
     options:
       provider: giscus
       options:
-        repo: TODO:username/repo-name
-        repoId: TODO:your-repo-id
-        category: Announcements
-        categoryId: TODO:your-category-id
+        repo: "Nor2000/gardenofeleanormerces"
+        repoId: "R_kgDOUEa43Q"
+        category: "Comments"
+        categoryId: "DIC_kwDOUEa43c4DEWWS"
         mapping: url
         strict: true
         reactionsEnabled: true

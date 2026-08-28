@@ -6,19 +6,22 @@ Oh, hello.
 
 My name is Eleanor Merces and I'm a 6th year math student located in Calgary, Alberta. I was bored recently, so I decided to make a simple website for myself where I can upload my math notes. Obviously, it would have been way easier to just upload them to obsidian or google drive or anywhere else that wouldn't have costed me an embarrassing amount of hours to stress over / configure; but I've been wanting to learn more about web development anyways, plus the idea of doing it myself seemed appealing. 
 
-I can't do all of that myself since I barely know anything about computers, so of course I cheated a little bit - went to GitHub and typed in "static website generator". Quartz, which hooks directly to your Obsidian repo? Hell yeah! 
+I can't do all of that myself since I barely know anything about computers, so of course I cheated a little bit - went to GitHub and typed in "static website generator". Quartz, which hooks directly to your Obsidian vault? Hell yeah! 
 
 I ended up doing a deep dive into Jacky's Quartz philosophy, plus checking out his blog, and I realized that this might be a way more fun project than just a place to store my math notes. Cue me buying a domain for 2 dollars and finally, after spending an amount of time I will not disclose here, deploying to Github pages. We all start somewhere, I suppose. 
 
-Honestly, though, I decided to undertake this project because I'm writing this in 2026, one of the first years that AI has *really* blown up. It has shifted society in a subtle but disconcerting way - in a way that feels best described by "Uncanny Valley". Everything feels the same, but its just a bit...off. 
+A little bit about me: 
 
-A lot of the emphasis is on how AI has made menial tasks obsolete - we now use AI to plan our dinners, write our agendas, send our emails, write our essays, create our "art" (i.e. Ai slop), and - this is a huge part - code. Anything that requires a decent amount of executive function or cognition seems to have been offloaded to AI. This has been simultaneously incredibly freeing and incredibly depressing for me. On one hand, I am coming to the realization that all of the things I was stressing about before, like not knowing how to code or navigate linux or being kind of bad at meal prepping or writing essays, were all things that I was never going to even be able to *compete* with AI over, anyways. I no longer have this pressure to keep up with everybody else, because now everybody can just turn in okay-ish or maybe even good work with little effort.
+- I'm a philosophy nerd, and my specialization is scientific epistemology. I was hugely inspired by a class that I took on the philosophy of science in my third year of university. I am particularly interested in methodology, as I believe that the key to a pragmatic science is in targeting/focusing on methods that have more impact. Method is the engine that drives a pragmatic science. 
+- I'm a huge bibliophile! I have a massive book collection that keeps on growing. I once dated someone who said they needed to buy a house so they had a place to store all of their books - no other reason - and I 100% understood what was meant. 
+- I really enjoy sports of (almost) any kind. Right now I'm really into biking. When I was a teenager, I smashed my front teeth on pavement skateboarding and had to get them reconstructed....yolo, I guess. 
+- I love comfortable, "vibe"-y spaces that feels personalized. My house is small and my room even more so, so to make space for a desk I got a loft bed and stuck my desk underneath. It's decked out with a bunch of polaroids, fairy lights, books, (unfortunately) fake plants, and stuff for my cat Jax to feel comfy as he hangs out with me while I work.
+- An extension of the former point is that I'm a sucker for analog stuff. Cassette tapes, vinyls, polaroids, camcorders, physical books, handwritten letters. I keep physical journals that I like to stick receipts, photos, flowers, and other memorabilia into so I can look back on them when I'm older. It's gonna be so awesome!
+- I think that I can be overall described as a person who is insatiably curious, open, and who loves their life. I really enjoy taking the back seat and exploring the places that life wants to take me. 
 
-Which is exactly why its depressing, of course. I mean, you hear about the destruction of books, and its really not a nice feeling. It feels like the collective consciousness has replaced stress and hardship with this low, numb, brain dead buzz. It's driving me mad. 
+I really loved the idea of a 'digital garden' as an intentional alternative to traditional social media platforms like instagram, facebook, etc. In an age where everything is marketed to us as complete, perfect, and smooth, a digital garden feels more representative of something more real: a growing network of ideas that are processes rather than end points. 
 
-This website is partially a project in trying to focus on the 'relief' part of that feeling - I want to embrace learning how to code instead of getting and AI to do it for me, I want to learn how to navigate linux and truly know my computer without having an AI explain or navigate it for me, I want to do my own writing and interpret things and creatively engage without the pressure of production.
-
-I love the idea of a "digital garden" - incomplete, dynamic, shifting, evolving with new seeds being planted and branching out. I hold the philosophy that we should create more than we should consume, and this is my way of doing that. 
+I'm looking forward to writing more, and I hope that I can plant some seeds in the garden of your mind. :)
 
 Cheers!
 

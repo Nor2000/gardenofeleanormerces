@@ -10,6 +10,8 @@ I can't do all of that myself since I barely know anything about computers, so o
 
 I ended up doing a deep dive into Jacky's Quartz philosophy, plus checking out his blog, and I realized that this might be a way more fun project than just a place to store my math notes. Cue me buying a domain for 2 dollars and finally, after spending an amount of time I will not disclose here, deploying to Github pages. We all start somewhere, I suppose. 
 
+![Alt text description](images-garden/20260726_164925.jpg)
+
 A little bit about me: 
 
 - I'm a philosophy nerd, and my specialization is scientific epistemology. I was hugely inspired by a class that I took on the philosophy of science in my third year of university. I am particularly interested in methodology, as I believe that the key to a pragmatic science is in targeting/focusing on methods that have more impact. Method is the engine that drives a pragmatic science. 

@@ -1,0 +1,22 @@
+# dr trefor bazett: overview of vector calculus
+
+- vector field: 2 dimensional, 3 dimensional
+- what is a vector space? 
+	- at any point in space we can put a vector
+	- example: gravity: the force of gravity working on a particle can be represented as a vector field
+	- example: water running through a river
+	- vector fields everywhere in physics, math, engineering, etc
+	- vector field as curves? 
+		- suppose that we have a disk sitting in 3d space on the x-y plane. this can be represented as a function
+			- however, we can also have another function that lives "above" our function
+			- bounded vs unbounded curve
+			- surface intervals: 
+				- example: suppose we 
+			- relationship between curves and surfaces and vector fields
+				- what kinds of questions can we ask? 
+					- **flux**: to what degree is the vecotr field dispersing across the boundary? 
+					- to what degree is the vecotr field aligned in relation to a norm of my boundary? 
+					- **flow**: tendency for the vector field to be aligned  with the tangents of the curve rather than the pushing out of the boundary? 
+		- **big question**: how do local properties relate to global properties? 
+			- how do the parts relate to the global properties? 
+		- 

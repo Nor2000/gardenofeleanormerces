@@ -1,0 +1,7 @@
+- **closed ball:** Let $\vec{a} \in R^n$ and $r>0$. 
+	- the closed ball of radius r centered at $\vec{a}$ is $\vec{B}_{r}(\vec{a}) = \{\vec{x} \in R^n | ||\vec{x}-\vec{a}|| \leq r\}$
+- **open ball**: Let $\vec{a} \in R^n$ and $r>0$. 
+	- the open ball of radius r centered at $\vec{a}$ is $\vec{B}_{r}(\vec{a}) = \{\vec{x} \in R^n | ||\vec{x}-\vec{a}|| \geq r\}$
+- **sphere**: Let $\vec{a} \in R^n$ and $r>0$. 
+	- the sphere of radius r centered at $\vec{a}$ is $\vec{B}_{r}(\vec{a}) = \{\vec{x} \in R^n | ||\vec{x}-\vec{a}|| = r\}$
+	- 

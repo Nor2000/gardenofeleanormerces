@@ -1,0 +1,107 @@
+---
+tags: 
+  - type/fleeting 
+created: 2026-09-06, 17:26
+modified: 2026-09-06, 17:26
+template_type: Fleeting
+template_version: "0.11"
+---
+## introduction to electricity markets
+
+ ~ markets as optimization systems ~
+
+- questions: 
+	- where does power come from? 
+	- who decided, and when, which generators in alberta would be running at this minute? 
+	- what did the last megawatt hour cost ot produce? what was it sold for? what are the reasons for differentiation at two different points in time?
+- why study electircity markets? 
+	- '[[essential intermediate good]]'
+		- quanitites balanced every second
+		- prices computed on minute scale
+		- optimization across a variety of periods
+		- extremely complex economic ecosystem
+	- [[unusual economics]]
+		- [[limited storage at scale]]
+		- [[demand barely responds to price]]
+		- power system reliability is a public god (non rivalrous and non-excludable)
+		- flows on power networks governed by physics rather than contracts or policy
+		- alberta; energy only market since  2001, subject to continuous evolution
+		- REM: restructured energy market
+			- chnages how alberta dispatches and prices power
+			- modern electricity market: REM subset
+	- =='a wholesale electricity market is a decentralized mechanism for solving a constrained cost-minimization problem to efficiently allocate resources'==
+		- 'wholesale'-selling product in bulk to other businesses rather than to individual consumers
+		- ---> having electricity sold wholesale and the structure through which its sold allows for decentralization of a solution to a cost-minimation problem under specific constraints so that consumers can have an intermediate essential good that should be efficiently allocated
+		- market design feature will be one of three things: 
+			- an objective
+			- a constraint
+			- rule for turning the solution into prices and allocating resources
+		- ![[Pasted image 20260906174923.png]]
+- **the physical system**
+	- generation: production of electricity
+		- hundreds of facilities in alberta
+	- transmission: high voltage grid moving bulk power across the province
+	- distribution: lower voltage wires reaching premises
+		- regulated monopolies by service territory
+	- retail: consumer interface with the market
+- **uniqueness of electricity**
+	- limited storage at commericial scale: network downtime means balckout/brownouts
+		- 'brownout'?
+		- how would a network go down? 
+	- equilibirum reached by moving supply
+		- automated price responsiveness of demand and storage at scale makes this even more complex
+	- delivery follows physics, not contracts or policy
+		- location matters if the network is constrained
+			- **physical** mechanism versus societal construct -- how does this change things? 
+	- capital intensity and longevity: 
+		- generators expensive and lumpy investments that last for decades
+			- today's prices and expectations are revenue that underpin investment
+	- ![[Pasted image 20260906175933.png]]
+- **timeline**
+	- twenty years ago: 
+		- system operator projects long term transmission plan over a twenty year horizon
+	- five to ten years ago: 
+		- S.O applies to the regulator for a new transmission: 
+		- generators begin considering new investment, approval and build times of one to ten years:
+		- investment case requires a forecast of energy market prices over time
+	- two to five years ago: 
+		- construction begins on new generation and transmission: 
+		- generators declare outages for maintenance: 
+		- generators, large consumers, and retailers begin hedging in the forward market
+			- '[[forward market]]': over the coutner financial marketplace, two parties agree to buy or sell and asset at a set price for delivery at a specific time
+			- '[[hedging]]': taking financial action to protect against the risk of future price increases
+	- one day ahead: 
+		- SO procures operating reserves for the following day: capacity held back from the energy market for contingencies and moment-to-moment balancing
+		- generators submit offers $0/MWh<offer<$999.99/MWh
+		- importers offer to bring power in with interconnections with BC, montana, SK: exporters bid to take the power out
+		- consumers can submit bids to reduce consumption at stated price, although this is rare
+		- ==all offers and bids are assembled into a merit order for each hour: the ordered supply curve this course studies==
+			- merit order: feasibility? how realistic it is? what good it does?
+	- up to two hours ahead: 
+		- generators can change (restate their offer prices)
+		- offers for the hour beginning at 6 pm are locked in at 4 pm
+		- 'the hour beginning at 6 pm is known as the hour ending 19 (HE 19. this is because the hour ends at 7 pm, which is 19:00'
+			- what the fuck does this mean
+		- within two hours before delivery begins, quanities can change only for an acceptable operating reason, typically a chnage in the capability of the unit
+	- within the delivery hour
+		- SC (system controller) dispatches units up or down according to offers as demand changes
+		- SMP is the offer price of the last dispatched unit in each minute; as demand changes, the marginal unit and SMP change
+			- ==this will chnage substantially once alberta implements dispatch and pricing derived from optimization==
+		- units ramp towards instructed level
+			- regulating reserve covers the small supply-demand imbalances that remain during ramping 
+		- [[time-weighted average]]: TRA of the SMPs is the hourly pool price: an SMP of $60/MWh for 20 minutes and $90/MWh for forty minutes yields a pool price of $80/MWh. 
+		- most consumers do not obersve the current price and do not respond to it: some large consumers do
+	- within the following one to six months
+		- financial settlement occurs for the delivery month: generators are paid, laqrge consumers and retailers pay
+		- most consumers instead pay rates negotiated with their retailers, which do not vary hour to hour
+		- market paritcipants are assessed for compliance with the rules and legislation
+			- subject to investigation and enforcement
+		- enforcement processes generally occur after the delivery hour, subject to statutory limitations periods
+- **examples of market data:**
+	- monthly average pool prices
+	- pool prices and temperature 
+		- what the fuck is meant by temperature
+	- intermittency and the pool price over one week
+- ![[Pasted image 20260906183811.png]]
+	- next day: 
+

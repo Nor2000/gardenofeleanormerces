@@ -1,0 +1,65 @@
+## last session: the nature of electricity demand
+
+- electricity demand is inelastic in the short run
+	- ==why?==
+	- willingnness to pay, and how it fits intoa  ==benefit function==
+- **the value of a ==lost load==**:
+	- ---> ==what is a "lost load"==?
+		- estimate of willingnesss to pay that replaces the "top" part of the demand curve
+		- bounds the benefit function
+		- ==values and prices load shedding==
+		- ==linear demand==, $q=A-5p$, calibrated to the Palliser blocks, for use when some price responsiveness of demand is wanted; often demand is instead fixed at a number
+- **learning objectives**:
+	- ==identify decision variables, the objective function, and the constraints in a written description of a dispatch problem==
+	- explain the difference between a ==feasible solution== and an ==optimal one== and determine whether each constraint is either ==binding== or ==slack== at a given solution. 
+		- ==read this as:== what is the general difference between **a** solution, and the **best** solution, and when it comes to the constraints on either of those, the measure of importance any of those constraints have on the (best) solution
+	- solve a ==two generator dispatch problem graphically==, and a five-genersator problem by ==cheapest-first reasoning==, verifying optimality in written words
+	- ==state the operational defintion of shadow price==, and compute one by the ==perturb==, resolve, difference method
+		- ==read this as:== the shadow price involves a ==realistic expectation== for something that can go wrong (perturbation), and there is therefore a difference between the shadow price and the regular price
+	- explain why a ==slack constraints== shadow price is 0, and interpret the shadow price of a capacity constraint as a units operating margin
+		- ==read this as:== when there is something that has ==gone wrong== (perturbation), the generator is going to be working only on the ==binding consraints==: it is not going to spend money on inputs that can be cut, which are the slack constraints. 
+	- **note.** everything is done with one small problem from the Palliser system. 
+
+## why optimization?
+
+- wholesale electricity market is a mechanism for solving a constrained cost-minimzation problem
+- every design feature we discuss one of three things: 
+	- objective
+	- constraint
+	- rule for turning the solution into prices and allocating resources
+- ==contraints will grow as we go through it:== energy balance and capacity today
+- ==security constrained eocnomic dispatch (SCED), with locational marginal prices (LMP) as its pricing rule, is a particular version of this problem.==
+- **base assumptions.**
+	- **one location**. electricity moves freely. 
+	- **one hour.** solve a single hour on its own, no linking hours. 
+	- **offers equal marginal cost.** assume there is no market power
+	- **==demand is fixed at the palliser MID block==**: 9,000MW, regadless of price. 
+	- **wind (1,500MW) and hydro (1,000MW)** run whenever available at zero marginal cost, treat them as fixed and serve the remainder with the thermal units. 
+	- remaining (residual) demand for the thermal untis: 9,000-1,500-1,000=6,500 MW.
+- **overall: 
+	- not worried about the location or time, offer is equal to marginal cost because the market is perfectly competitive, the MID block is defined as 9,000 MW. 
+		- **note.** the MID block is assigned about 2-fifths of the entire year, accoutning for a medium amount of energy being demanded
+- **the problem:**
+- ![[Pasted image 20260919121458.png]]
+- **step 1, decision variables: how do we choose?**
+	- set $g_{n}$ as the amount that each unit generates in an hour
+	- candidate solution is a list of 5 numbers that correspond to $g_{n}$, $1\leq n \leq5$: exercise is about choosing the best list
+- **step 2: what make a solution good?**
+	- ==the objective function== assigns a score to every candidate solution. ours is the total cost of generation this hour:
+		- **total cost = $20g_{1}+40g_{2}+42g_{3}+75g_{4}+110g_{5}$**
+		- we want to minimize this cost. 
+			- **note.** with a benefit function and an elastic demand, we would maximize surplus, which is defined to be ==benefit less cost==, when load is **fixed** (as it is here), benefit is a constant and the ==two problems coincide.==
+		- ==because offer equals marginal cost by assumption,== minimizing as-offered cost is equivalent to minimizing true cost. when we discuss market power, the same optimization minimizes as-offered cost only. 
+			- ==read this as:== when we solve the cost-minimizing problem today, it will solve under the assumptions we have, but when we ==expand our constraints later==, it will only slve one (unrealistic) problem.
+- **step 3: constraints and the energy balance**
+	- **note.** constraints separate allowed solutions from disallowed ones. 
+	- generation **must** equal consumption (under our current assumptions)
+	- **note.** there is a particularly ==important economic constraint==: the shadow price will turn out to be the market price. 
+	- ==assumption:== each unit is ==limited by its capacity==, and cannot generate a negative amount: 
+		- ![[Pasted image 20260919124026.png]]
+		- **may hold with room to spare, or exactly**
+		- ==a constraint that holds exactly at a solution is a binding one there; one with room to spare is slack.==
+- **so far, we have:**
+	- ![[Pasted image 20260919124201.png]]
+- **we note that this problem is a linear problem.**
+- 

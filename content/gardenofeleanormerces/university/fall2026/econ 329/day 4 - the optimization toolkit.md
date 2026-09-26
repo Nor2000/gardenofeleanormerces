@@ -2,7 +2,7 @@
 
 - electricity demand is inelastic in the short run
 	- ==why?==
-	- willingnness to pay, and how it fits intoa  ==benefit function==
+	- willingnness to pay, and how it fits into a ==benefit function==
 - **the value of a ==lost load==**:
 	- ---> ==what is a "lost load"==?
 		- estimate of willingnesss to pay that replaces the "top" part of the demand curve

@@ -1,0 +1,4 @@
+- when asking for the ==merit order== of the dispatch, the solution should be written in the form of the generator, how many MW, and at what price ($/MWh). Dispatch is just written in terms of how many units of MW are being provided by each firm. 
+	- the merit order also lists ==all== of the generators, not just the ones being used. 
+	- we refer to the marginal unit in dispatch as the marginal unit, or the interior unit. 
+- 
